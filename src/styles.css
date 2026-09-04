@@ -1,0 +1,56 @@
+:root {
+  --salvia: #78806a;
+  --oliva: #565d4e;
+  --bs-primary: #64263d;
+  --bs-primary-rgb: 100, 38, 61;
+  --bs-secondary: #a95c6b;
+  --bs-secondary-rgb: 169, 92, 107;
+  --bs-success: #78806a;
+  --bs-success-rgb: 120, 128, 106;
+  --bs-warning: #c7a56b;
+  --bs-warning-rgb: 199, 165, 107;
+  --bs-info: #d5a394;
+  --bs-info-rgb: 213, 163, 148;
+  --bs-light: #f3ebdd;
+  --bs-light-rgb: 243, 235, 221;
+  --bs-dark: #2d2528;
+  --bs-dark-rgb: 45, 37, 40;
+  --bs-body-color: #64263d;
+  --bs-body-color-rgb: 100, 38, 61;
+  --bs-body-bg: #f3ebdd;
+  --bs-body-bg-rgb: 243, 235, 221;
+  --bs-link-color: #64263d;
+  --bs-link-hover-color: #a95c6b;
+}
+
+.btn-primary {
+  --bs-btn-bg: #64263d;
+  --bs-btn-border-color: #64263d;
+  --bs-btn-hover-bg: #a95c6b;
+  --bs-btn-hover-border-color: #a95c6b;
+  --bs-btn-active-bg: #2d2528;
+  --bs-btn-active-border-color: #2d2528;
+}
+
+.text-bg-primary,
+.bg-primary { background-color: #64263d !important; }
+
+.text-primary { color: #64263d !important; }
+
+.vem-chip {
+  color: var(--oliva);
+  background: color-mix(in srgb, var(--salvia) 16%, transparent);
+  border: 1px solid #78806a;
+}
+
+.vem-program-icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 0.8rem;
+  color: #a95c6b;
+}
+
+.vem-program-highlight {
+  background: color-mix(in srgb, #c7a56b 30%, #f3ebdd);
+  border-color: color-mix(in srgb, #a95c6b 35%, transparent);
+}
